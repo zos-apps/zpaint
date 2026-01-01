@@ -13,7 +13,7 @@
  * - Zoom and pan navigation
  */
 
-import React, { useState, useCallback, useEffect, useRef, useMemo } from 'react';
+import { useState, useCallback, useEffect, useRef, useMemo } from 'react';
 import type {
   ToolType,
   RGBA,
