@@ -1,0 +1,144 @@
+{
+  "name": "@zos-apps/zpaint",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "zos": {
+    "id": "ai.hanzo.zpaint",
+    "name": "zPaint",
+    "icon": "🎨",
+    "category": "creative",
+    "description": "Professional raster graphics editor with layers, blend modes, and filters",
+    "permissions": [
+      "filesystem"
+    ],
+    "window": {
+      "defaultSize": {
+        "width": 1200,
+        "height": 800
+      },
+      "minSize": {
+        "width": 800,
+        "height": 600
+      },
+      "resizable": true
+    },
+    "about": "A professional raster graphics editor inspired by Photoshop. Features multi-layer compositing, blend modes, brush tools, selection tools, and image filters.",
+    "help": [
+      "B - Brush tool",
+      "E - Eraser tool",
+      "M - Rectangle select",
+      "L - Lasso select",
+      "W - Magic wand",
+      "G - Fill/Gradient",
+      "S - Clone stamp",
+      "I - Eyedropper",
+      "[ / ] - Brush size",
+      "Cmd+Z - Undo",
+      "Cmd+Shift+Z - Redo"
+    ],
+    "docs": "https://zos-apps.github.io/zpaint",
+    "site": "https://github.com/zos-apps/zpaint",
+    "shortcuts": [
+      "B Brush",
+      "E Eraser",
+      "M Rectangle Select",
+      "L Lasso Select",
+      "W Magic Wand",
+      "G Fill/Gradient",
+      "S Clone Stamp",
+      "I Eyedropper",
+      "[ Decrease Brush",
+      "] Increase Brush",
+      "Cmd+Z Undo",
+      "Cmd+Shift+Z Redo"
+    ],
+    "features": [
+      "Multi-layer compositing",
+      "23 blend modes",
+      "Brush with size, hardness, opacity, flow",
+      "Rectangle, lasso, and magic wand selection",
+      "Clone stamp tool",
+      "Gaussian and motion blur",
+      "Sharpen filter",
+      "Brightness/Contrast",
+      "Hue/Saturation",
+      "Levels and Curves",
+      "Layer masks",
+      "Color picker with HSL/RGB"
+    ],
+    "screenshots": {
+      "hero": "screenshots/hero.png",
+      "images": [
+        "screenshots/1-painting.png",
+        "screenshots/2-layers.png",
+        "screenshots/3-filters.png"
+      ]
+    },
+    "downloads": {
+      "web": "https://zos-apps.github.io/zpaint"
+    },
+    "featured": true,
+    "tags": [
+      "graphics",
+      "image editor",
+      "photoshop",
+      "painting",
+      "layers",
+      "filters",
+      "raster",
+      "art",
+      "design"
+    ],
+    "releaseDate": "2024-12-29",
+    "support": "https://github.com/zos-apps/zpaint/issues",
+    "changelog": "https://github.com/zos-apps/zpaint/releases"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "dependencies": {
+    "@zos-apps/config": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2"
+  },
+  "description": "Professional raster graphics editor with layers, blend modes, and filters",
+  "homepage": "https://zos-apps.github.io/zpaint",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zos-apps/zpaint.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zos-apps/zpaint/issues"
+  },
+  "author": "Hanzo AI",
+  "license": "MIT",
+  "keywords": [
+    "zos",
+    "app",
+    "graphics",
+    "image editor",
+    "photoshop",
+    "painting",
+    "layers"
+  ],
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/zos-apps"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
